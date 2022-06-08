@@ -1,0 +1,360 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+*{
+box-sizing:border-box;
+	margin: 0;
+	padding: 0;
+}
+*/
+
+html {
+}
+body {
+	width: 100%;
+	height: 100%;
+	font-family: adelle;
+	font-size: 1rem;
+	color: #8C3784;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: aliceblue;
+
+}
+
+a {
+		color:#8C3784;
+	text-decoration: none;
+	
+	
+}
+
+a:hover {
+	background-color: lavender;
+}
+
+.menu {
+	background-color: #E9F7ED;
+}
+.wrapper {
+/*	background-color: #E9F7ED;*/
+	overflow-y:scroll;
+	width: 90%;
+	
+}
+
+.hamburger-menu {
+	position: relative;
+	display: block;
+	width: 35px;
+	height: 35px;
+	appearance:none;
+	background: none;
+	outline:none;
+	border:none;
+	cursor: pointer;
+padding-top:1.5rem;
+padding-left: 1.5rem;
+ float:left;
+}
+
+.hamburger-menu .bar, .hamburger-menu:after, .hamburger-menu:before {
+	content: '';
+	display: block;
+	width: 40px;
+	height: 5px;
+	background-color: purple;
+	margin: 6px 0px;
+	transition: 0.4s;
+	
+}
+
+.site-name {
+	text-align: center;
+	font-size: 4rem;
+	width: 100%;
+}
+
+.logo {
+	margin-top: -10rem;
+padding-right: 1.2rem;
+float: right;
+}
+
+.social-icons-header {
+	text-align: center;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block
+}
+
+ul li img {
+    padding: 0rem 1.6rem;
+	display: block;
+    text-decoration: none;
+}
+
+hr {
+	border-color: #8C3784;
+}
+
+
+
+
+/*Styling slogan */
+.slogan{
+	padding-top: 1.5rem;
+	text-align: center;
+	font-weight: bold;
+/*	font-size: 1.8rem;*/
+}
+
+/*Styling intro movie*/
+.introduction-movie{
+	padding-top: 1.5rem;
+	text-align: center;
+	margin-top:-10px;
+	width: auto;
+	height: 100%;
+}
+
+
+/*Introduction text about fitdance*/
+.about-fitdance{
+padding-top: 1.5rem;
+text-align: center;
+}
+
+/*Styling book now cta*/
+
+.book-button{
+	text-align: center;
+}
+
+.book-button :hover{
+	background-color: lavender;
+	
+}
+.book-now-cta{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.4rem;
+	padding:0.5rem;
+	background-color: #8C3784;
+	color: #fff;
+	border-radius: 5px;
+	width: 14rem;
+	height: 3rem;
+}
+
+/*Styling cards*/
+
+.cards {
+	text-align: center;
+
+}
+/*Styling timetable*/
+.timetable {
+	margin-top: 2.5rem;
+	padding-top: 0.6rem;
+	margin-left: 2.8rem;
+	border-style: solid;
+	border-radius: 1rem;
+	width: 90%;
+	height:auto;
+	text-align: center;
+	background-color: #E9F7ED;
+}
+
+.timetable h2 {
+	text-align: center;
+}
+
+
+/*Styling the images for the Photo page*/
+.slideshow-container {
+padding-top: 2.5rem;
+margin-left: 3rem;
+text-align: center;
+border-style: solid;
+border-radius: 1rem;
+width: 90%;
+height:auto;
+margin-top: 2.5rem;
+background-color: #E9F7ED;
+	
+
+}
+
+/* Hide the images by default */
+.slide{
+  display:none;
+}
+
+.slide img{
+	max-height: 400px;
+	width: 78%;
+	border-radius: 5px;
+	padding-bottom: 1.5rem;
+}
+
+
+
+/* Styling next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+ padding: 6px 10px;
+ font-size: 1.1rem;
+ transition: 0.6s ease;
+color: white;
+background-color: #A983BE;
+border-radius: 8px;
+
+}
+.next-previous-btn {
+padding-top: 1rem;
+text-align: center;
+}
+
+/* Hovering the next and previous buttons*/
+
+.prev:hover, .next:hover {
+  background-color: purple;
+}
+
+/*Styling membership table*/
+
+.membership-table {
+	border-style: solid;
+	border-radius: 1rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	margin-left: 2.8rem;
+	width: 90%;
+	background-color: #E9F7ED;
+}
+
+.membership-information {
+	text-align: center;
+	width: 100%;
+}
+
+.membership-information p {
+	font-weight: normal;
+	font-size: 0.9rem;
+}
+
+.membership-information tr {
+	font-size: 1rem;
+}
+
+.membership-information hr{
+	width: 100%;
+}
+
+.vertical-line-price{
+	border-left: 1px solid;
+	padding: 0.5rem;
+}
+
+.vertical-line-price td{
+	font-size: 1rem;
+}
+
+.terms-conditions {
+	text-align: center;
+	padding-top: 1.5rem;
+}
+
+
+ hr{
+	width:100%;
+}
+
+
+
+/*Styling cta button above the terms and conditions*/
+
+
+/*Styling terms and conditions image*/
+.terms-condiitons {
+	padding-top: 0.9rem;
+	text-align: center;
+}
+
+/*Styling the teacher*/
+.the-teacher {
+	margin-top: 2.5rem;
+	padding-top: 0.6rem;
+	margin-left: 2.8rem;
+	border-style: solid;
+	border-radius: 1rem;
+	width: 90%;
+	height:auto;
+	text-align: center;
+	background-color: #E9F7ED;
+}
+
+
+/*styling contact*/
+.contact {
+	margin-top: 1.5rem;
+	text-align: center;	
+}
+
+.contact h1 {
+	font-size: 1.3rem;
+}
+
+/*Styling social media icons*/
+.icons {
+	display: inline;
+	text-decoration: none;
+}
+
+
+/*Styling footer*/
+.footer {
+	text-align: center;
+	text-decoration: none;
+	padding-top:2rem;
+	padding-bottom: 2rem;
+	margin-top:2rem;
+	border-color: #8C3784;
+	border-top: 1px solid;
+	color:#8C3784;
+	width: auto;
+}
+
+.footer a {
+	color:#8C3784;
+	text-decoration: none;
+}
+
+.arrow-up{
+	width: 40px;
+	float: left;
+	padding-left: 1rem;
+}
+
+/* Fading animation */
+.fade{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
